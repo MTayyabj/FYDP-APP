@@ -16,7 +16,7 @@ import { courseService, userService } from '../../src/services';
 import { Course } from '../../src/types/course';
 import { UserStats } from '../../src/types/user';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { Flame, Zap, MessageCircle, ShoppingBag, Play, BookOpen, ChevronRight, Award } from 'lucide-react-native';
+import { Flame, Zap, MessageCircle, ShoppingBag, Play, BookOpen, ChevronRight, Award, Trophy } from 'lucide-react-native';
 
 function getGreeting(): string {
   const hour = new Date().getHours();

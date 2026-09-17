@@ -1,9 +1,9 @@
-import { View, StyleSheet, ActivityIndicator } from 'react-native';
+import { View, StyleSheet, ActivityIndicator, DimensionValue } from 'react-native';
 import { useThemeStore } from '../../store/themeStore';
 import { AppText } from './AppText';
 
 interface SkeletonProps {
-  width?: number | string;
+  width?: DimensionValue;
   height?: number;
   radius?: number;
 }

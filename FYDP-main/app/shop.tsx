@@ -2,14 +2,14 @@ import { useEffect, useState, useCallback } from 'react';
 import { View, StyleSheet, ScrollView, TouchableOpacity, RefreshControl, Alert } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { router } from 'expo-router';
-import { useThemeStore } from '../../src/store/themeStore';
-import { AppText } from '../../src/components/common/AppText';
-import { AppCard } from '../../src/components/common/AppCard';
-import { Badge } from '../../src/components/common/Badge';
-import { Skeleton } from '../../src/components/common/Skeleton';
-import { spacing, radius, shadows } from '../../src/constants/typography';
-import { shopService } from '../../src/services';
-import { ShopItem, ShopCategory } from '../../src/types/shop';
+import { useThemeStore } from '../src/store/themeStore';
+import { AppText } from '../src/components/common/AppText';
+import { AppCard } from '../src/components/common/AppCard';
+import { Badge } from '../src/components/common/Badge';
+import { Skeleton } from '../src/components/common/Skeleton';
+import { spacing, radius, shadows } from '../src/constants/typography';
+import { shopService } from '../src/services';
+import { ShopItem, ShopCategory } from '../src/types/shop';
 import { ArrowLeft, Gem, Check, Lock, Sparkles } from 'lucide-react-native';
 
 const categories: { id: ShopCategory; label: string }[] = [

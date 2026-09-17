@@ -1,11 +1,11 @@
 import { ReactNode } from 'react';
-import { View, StyleSheet, ViewStyle } from 'react-native';
+import { View, StyleSheet, ViewStyle, StyleProp } from 'react-native';
 import { useThemeStore } from '../../store/themeStore';
 import { radius, shadows, spacing } from '../../constants/typography';
 
 interface AppCardProps {
   children: ReactNode;
-  style?: ViewStyle;
+  style?: StyleProp<ViewStyle>;
   elevated?: boolean;
   padding?: 'sm' | 'md' | 'lg' | 'none';
   onPress?: () => void;

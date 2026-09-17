@@ -2,13 +2,13 @@ import { useState } from 'react';
 import { View, StyleSheet, ScrollView, TouchableOpacity } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { router } from 'expo-router';
-import { useThemeStore } from '../../src/store/themeStore';
-import { useAuthStore } from '../../src/store/authStore';
-import { AppText } from '../../src/components/common/AppText';
-import { AppButton } from '../../src/components/common/AppButton';
-import { Character } from '../../src/components/common/Character';
-import { AppCard } from '../../src/components/common/AppCard';
-import { spacing, radius, shadows } from '../../src/constants/typography';
+import { useThemeStore } from '../src/store/themeStore';
+import { useAuthStore } from '../src/store/authStore';
+import { AppText } from '../src/components/common/AppText';
+import { AppButton } from '../src/components/common/AppButton';
+import { Character } from '../src/components/common/Character';
+import { AppCard } from '../src/components/common/AppCard';
+import { spacing, radius, shadows } from '../src/constants/typography';
 import { ArrowLeft, Check, ShoppingBag, Shirt, Crown, Glasses, Image as ImageIcon } from 'lucide-react-native';
 
 const characterColors: { id: string; name: string; color: string }[] = [

@@ -1,15 +1,15 @@
 import { View, StyleSheet, ScrollView, TouchableOpacity } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { router } from 'expo-router';
-import { useThemeStore } from '../../src/store/themeStore';
-import { useAuthStore } from '../../src/store/authStore';
-import { useLearningStore } from '../../src/store/learningStore';
-import { AppText } from '../../src/components/common/AppText';
-import { AppButton } from '../../src/components/common/AppButton';
-import { Character } from '../../src/components/common/Character';
-import { AppCard } from '../../src/components/common/AppCard';
-import { ProgressBar } from '../../src/components/common/ProgressBar';
-import { spacing, radius, shadows } from '../../src/constants/typography';
+import { useThemeStore } from '../src/store/themeStore';
+import { useAuthStore } from '../src/store/authStore';
+import { useLearningStore } from '../src/store/learningStore';
+import { AppText } from '../src/components/common/AppText';
+import { AppButton } from '../src/components/common/AppButton';
+import { Character } from '../src/components/common/Character';
+import { AppCard } from '../src/components/common/AppCard';
+import { ProgressBar } from '../src/components/common/ProgressBar';
+import { spacing, radius, shadows } from '../src/constants/typography';
 import { Check, X, Zap, TrendingUp, AlertCircle, Home, BookOpen } from 'lucide-react-native';
 
 export default function TestResultScreen() {

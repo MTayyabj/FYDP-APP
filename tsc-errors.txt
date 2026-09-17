@@ -1,0 +1,92 @@
+app/(tabs)/index.tsx(176,16): error TS2304: Cannot find name 'Trophy'.
+app/(tabs)/learn.tsx(107,39): error TS2322: Type '({ shadowColor: string; shadowOffset: { width: number; height: number; }; shadowOpacity: number; shadowRadius: number; elevation: number; } | { marginBottom: number; overflow: "hidden"; })[]' is not assignable to type 'ViewStyle'.
+  Types of property 'filter' are incompatible.
+    Type '{ <S extends { shadowColor: string; shadowOffset: { width: number; height: number; }; shadowOpacity: number; shadowRadius: number; elevation: number; } | { marginBottom: number; overflow: "hidden"; }>(predicate: (value: { ...; } | { ...; }, index: number, array: ({ ...; } | { ...; })[]) => value is S, thisArg?: any)...' is not assignable to type 'string | readonly FilterFunction[] | undefined'.
+app/(tabs)/learn/[courseId].tsx(5,31): error TS2307: Cannot find module '../../src/store/themeStore' or its corresponding type declarations.
+app/(tabs)/learn/[courseId].tsx(6,34): error TS2307: Cannot find module '../../src/store/learningStore' or its corresponding type declarations.
+app/(tabs)/learn/[courseId].tsx(7,25): error TS2307: Cannot find module '../../src/components/common/AppText' or its corresponding type declarations.
+app/(tabs)/learn/[courseId].tsx(8,25): error TS2307: Cannot find module '../../src/components/common/AppCard' or its corresponding type declarations.
+app/(tabs)/learn/[courseId].tsx(9,29): error TS2307: Cannot find module '../../src/components/common/ProgressBar' or its corresponding type declarations.
+app/(tabs)/learn/[courseId].tsx(10,26): error TS2307: Cannot find module '../../src/components/common/Skeleton' or its corresponding type declarations.
+app/(tabs)/learn/[courseId].tsx(11,27): error TS2307: Cannot find module '../../src/components/common/StateView' or its corresponding type declarations.
+app/(tabs)/learn/[courseId].tsx(12,42): error TS2307: Cannot find module '../../src/constants/typography' or its corresponding type declarations.
+app/(tabs)/learn/[courseId].tsx(13,31): error TS2307: Cannot find module '../../src/services' or its corresponding type declarations.
+app/(tabs)/learn/[courseId].tsx(14,37): error TS2307: Cannot find module '../../src/types/course' or its corresponding type declarations.
+app/(tabs)/learn/[courseId].tsx(84,49): error TS7006: Parameter 'l' implicitly has an 'any' type.
+app/(tabs)/learn/[courseId].tsx(130,29): error TS7006: Parameter 'level' implicitly has an 'any' type.
+app/(tabs)/learn/[courseId].tsx(130,36): error TS7006: Parameter 'index' implicitly has an 'any' type.
+app/character-customize.tsx(5,31): error TS2307: Cannot find module '../../src/store/themeStore' or its corresponding type declarations.
+app/character-customize.tsx(6,30): error TS2307: Cannot find module '../../src/store/authStore' or its corresponding type declarations.
+app/character-customize.tsx(7,25): error TS2307: Cannot find module '../../src/components/common/AppText' or its corresponding type declarations.
+app/character-customize.tsx(8,27): error TS2307: Cannot find module '../../src/components/common/AppButton' or its corresponding type declarations.
+app/character-customize.tsx(9,27): error TS2307: Cannot find module '../../src/components/common/Character' or its corresponding type declarations.
+app/character-customize.tsx(10,25): error TS2307: Cannot find module '../../src/components/common/AppCard' or its corresponding type declarations.
+app/character-customize.tsx(11,42): error TS2307: Cannot find module '../../src/constants/typography' or its corresponding type declarations.
+app/character-customize.tsx(58,16): error TS7006: Parameter 'prev' implicitly has an 'any' type.
+app/chatbot.tsx(5,31): error TS2307: Cannot find module '../../src/store/themeStore' or its corresponding type declarations.
+app/chatbot.tsx(6,25): error TS2307: Cannot find module '../../src/components/common/AppText' or its corresponding type declarations.
+app/chatbot.tsx(7,25): error TS2307: Cannot find module '../../src/components/common/AppCard' or its corresponding type declarations.
+app/chatbot.tsx(8,24): error TS2307: Cannot find module '../../src/components/common/Avatar' or its corresponding type declarations.
+app/chatbot.tsx(9,42): error TS2307: Cannot find module '../../src/constants/typography' or its corresponding type declarations.
+app/chatbot.tsx(10,32): error TS2307: Cannot find module '../../src/services' or its corresponding type declarations.
+app/chatbot.tsx(11,29): error TS2307: Cannot find module '../../src/types/chatbot' or its corresponding type declarations.
+app/edit-profile.tsx(5,31): error TS2307: Cannot find module '../../src/store/themeStore' or its corresponding type declarations.
+app/edit-profile.tsx(6,30): error TS2307: Cannot find module '../../src/store/authStore' or its corresponding type declarations.
+app/edit-profile.tsx(7,25): error TS2307: Cannot find module '../../src/components/common/AppText' or its corresponding type declarations.
+app/edit-profile.tsx(8,27): error TS2307: Cannot find module '../../src/components/common/AppButton' or its corresponding type declarations.
+app/edit-profile.tsx(9,26): error TS2307: Cannot find module '../../src/components/common/AppInput' or its corresponding type declarations.
+app/edit-profile.tsx(10,24): error TS2307: Cannot find module '../../src/components/common/Avatar' or its corresponding type declarations.
+app/edit-profile.tsx(11,25): error TS2307: Cannot find module '../../src/components/common/AppCard' or its corresponding type declarations.
+app/edit-profile.tsx(12,42): error TS2307: Cannot find module '../../src/constants/typography' or its corresponding type declarations.
+app/edit-profile.tsx(13,29): error TS2307: Cannot find module '../../src/services' or its corresponding type declarations.
+app/settings.tsx(4,31): error TS2307: Cannot find module '../../src/store/themeStore' or its corresponding type declarations.
+app/settings.tsx(5,37): error TS2307: Cannot find module '../../src/store/preferencesStore' or its corresponding type declarations.
+app/settings.tsx(6,30): error TS2307: Cannot find module '../../src/store/authStore' or its corresponding type declarations.
+app/settings.tsx(7,25): error TS2307: Cannot find module '../../src/components/common/AppText' or its corresponding type declarations.
+app/settings.tsx(8,25): error TS2307: Cannot find module '../../src/components/common/AppCard' or its corresponding type declarations.
+app/settings.tsx(9,33): error TS2307: Cannot find module '../../src/constants/typography' or its corresponding type declarations.
+app/settings.tsx(10,24): error TS2307: Cannot find module '../../src/constants/themes' or its corresponding type declarations.
+app/settings.tsx(153,22): error TS18046: 't' is of type 'unknown'.
+app/settings.tsx(154,41): error TS18046: 't' is of type 'unknown'.
+app/settings.tsx(159,38): error TS18046: 't' is of type 'unknown'.
+app/settings.tsx(160,51): error TS18046: 't' is of type 'unknown'.
+app/settings.tsx(160,60): error TS18046: 't' is of type 'unknown'.
+app/settings.tsx(161,51): error TS18046: 't' is of type 'unknown'.
+app/settings.tsx(166,74): error TS18046: 't' is of type 'unknown'.
+app/settings.tsx(167,74): error TS18046: 't' is of type 'unknown'.
+app/settings.tsx(168,74): error TS18046: 't' is of type 'unknown'.
+app/settings.tsx(170,60): error TS18046: 't' is of type 'unknown'.
+app/settings.tsx(171,20): error TS18046: 't' is of type 'unknown'.
+app/shop.tsx(5,31): error TS2307: Cannot find module '../../src/store/themeStore' or its corresponding type declarations.
+app/shop.tsx(6,25): error TS2307: Cannot find module '../../src/components/common/AppText' or its corresponding type declarations.
+app/shop.tsx(7,25): error TS2307: Cannot find module '../../src/components/common/AppCard' or its corresponding type declarations.
+app/shop.tsx(8,23): error TS2307: Cannot find module '../../src/components/common/Badge' or its corresponding type declarations.
+app/shop.tsx(9,26): error TS2307: Cannot find module '../../src/components/common/Skeleton' or its corresponding type declarations.
+app/shop.tsx(10,42): error TS2307: Cannot find module '../../src/constants/typography' or its corresponding type declarations.
+app/shop.tsx(11,29): error TS2307: Cannot find module '../../src/services' or its corresponding type declarations.
+app/shop.tsx(12,40): error TS2307: Cannot find module '../../src/types/shop' or its corresponding type declarations.
+app/test-result.tsx(4,31): error TS2307: Cannot find module '../../src/store/themeStore' or its corresponding type declarations.
+app/test-result.tsx(5,30): error TS2307: Cannot find module '../../src/store/authStore' or its corresponding type declarations.
+app/test-result.tsx(6,34): error TS2307: Cannot find module '../../src/store/learningStore' or its corresponding type declarations.
+app/test-result.tsx(7,25): error TS2307: Cannot find module '../../src/components/common/AppText' or its corresponding type declarations.
+app/test-result.tsx(8,27): error TS2307: Cannot find module '../../src/components/common/AppButton' or its corresponding type declarations.
+app/test-result.tsx(9,27): error TS2307: Cannot find module '../../src/components/common/Character' or its corresponding type declarations.
+app/test-result.tsx(10,25): error TS2307: Cannot find module '../../src/components/common/AppCard' or its corresponding type declarations.
+app/test-result.tsx(11,29): error TS2307: Cannot find module '../../src/components/common/ProgressBar' or its corresponding type declarations.
+app/test-result.tsx(12,42): error TS2307: Cannot find module '../../src/constants/typography' or its corresponding type declarations.
+app/test-result.tsx(88,46): error TS7006: Parameter 'area' implicitly has an 'any' type.
+app/test-result.tsx(88,52): error TS7006: Parameter 'i' implicitly has an 'any' type.
+app/test/[levelId].tsx(13,16): error TS2305: Module '"../../src/types/test"' has no exported member 'Question'.
+app/test/[levelId].tsx(185,14): error TS2304: Cannot find name 'TextInput'.
+src/components/common/Skeleton.tsx(17,9): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: ViewProps): View', gave the following error.
+    Type '{ width: string | number; height: number; borderRadius: number; backgroundColor: string; }' is not assignable to type 'ViewStyle | Falsy | RegisteredStyle<ViewStyle> | RecursiveArray<ViewStyle | Falsy | RegisteredStyle<ViewStyle>> | readonly (ViewStyle | ... 1 more ... | RegisteredStyle<...>)[]'.
+      Types of property 'width' are incompatible.
+        Type 'string | number' is not assignable to type 'DimensionValue | undefined'.
+          Type 'string' is not assignable to type 'DimensionValue | undefined'.
+  Overload 2 of 2, '(props: ViewProps, context: any): View', gave the following error.
+    Type '{ width: string | number; height: number; borderRadius: number; backgroundColor: string; }' is not assignable to type 'ViewStyle | Falsy | RegisteredStyle<ViewStyle> | RecursiveArray<ViewStyle | Falsy | RegisteredStyle<ViewStyle>> | readonly (ViewStyle | ... 1 more ... | RegisteredStyle<...>)[]'.
+      Types of property 'width' are incompatible.
+        Type 'string | number' is not assignable to type 'DimensionValue | undefined'.
+          Type 'string' is not assignable to type 'DimensionValue | undefined'.
+src/services/api/client.ts(2,24): error TS2307: Cannot find module '../constants/config' or its corresponding type declarations.

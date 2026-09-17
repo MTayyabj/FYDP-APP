@@ -1,13 +1,13 @@
 import { View, StyleSheet, ScrollView, TouchableOpacity, Switch, Alert } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { router } from 'expo-router';
-import { useThemeStore } from '../../src/store/themeStore';
-import { usePreferencesStore } from '../../src/store/preferencesStore';
-import { useAuthStore } from '../../src/store/authStore';
-import { AppText } from '../../src/components/common/AppText';
-import { AppCard } from '../../src/components/common/AppCard';
-import { spacing, radius } from '../../src/constants/typography';
-import { themes } from '../../src/constants/themes';
+import { useThemeStore } from '../src/store/themeStore';
+import { usePreferencesStore } from '../src/store/preferencesStore';
+import { useAuthStore } from '../src/store/authStore';
+import { AppText } from '../src/components/common/AppText';
+import { AppCard } from '../src/components/common/AppCard';
+import { spacing, radius } from '../src/constants/typography';
+import { themes } from '../src/constants/themes';
 import { ArrowLeft, Bell, Volume2, Sparkles, Eye, UserPlus, CircleUser, Palette, LogOut, ChevronRight, Shield, HelpCircle, Info } from 'lucide-react-native';
 
 export default function SettingsScreen() {

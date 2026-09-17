@@ -1,3 +1,5 @@
+import { ViewStyle } from 'react-native';
+
 export const typography = {
   headingXL: { fontSize: 32, fontWeight: '800' as const, lineHeight: 40 },
   headingL: { fontSize: 26, fontWeight: '700' as const, lineHeight: 34 },
@@ -39,7 +41,7 @@ export const radius: Record<string, number> = {
   round: 999,
 };
 
-export const shadows = {
+export const shadows: Record<string, ViewStyle> = {
   small: {
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 1 },

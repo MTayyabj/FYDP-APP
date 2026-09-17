@@ -1,5 +1,5 @@
 import { useEffect, useState, useCallback, useRef } from 'react';
-import { View, StyleSheet, ScrollView, TouchableOpacity } from 'react-native';
+import { View, StyleSheet, ScrollView, TouchableOpacity, TextInput } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { router, useLocalSearchParams } from 'expo-router';
 import { useThemeStore } from '../../src/store/themeStore';
@@ -10,7 +10,8 @@ import { ProgressBar } from '../../src/components/common/ProgressBar';
 import { LoadingSpinner } from '../../src/components/common/Skeleton';
 import { spacing, radius } from '../../src/constants/typography';
 import { testService } from '../../src/services';
-import { Test, Question } from '../../src/types/test';
+import { Test } from '../../src/types/test';
+import { Question } from '../../src/types/lesson';
 import { X, Check, ChevronRight, Clock, AlertCircle } from 'lucide-react-native';
 
 export default function TestScreen() {

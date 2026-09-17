@@ -2,13 +2,13 @@ import { useEffect, useState, useCallback, useRef } from 'react';
 import { View, StyleSheet, ScrollView, TouchableOpacity, TextInput, KeyboardAvoidingView, Platform } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { router } from 'expo-router';
-import { useThemeStore } from '../../src/store/themeStore';
-import { AppText } from '../../src/components/common/AppText';
-import { AppCard } from '../../src/components/common/AppCard';
-import { Avatar } from '../../src/components/common/Avatar';
-import { spacing, radius, shadows } from '../../src/constants/typography';
-import { chatbotService } from '../../src/services';
-import { ChatMessage } from '../../src/types/chatbot';
+import { useThemeStore } from '../src/store/themeStore';
+import { AppText } from '../src/components/common/AppText';
+import { AppCard } from '../src/components/common/AppCard';
+import { Avatar } from '../src/components/common/Avatar';
+import { spacing, radius, shadows } from '../src/constants/typography';
+import { chatbotService } from '../src/services';
+import { ChatMessage } from '../src/types/chatbot';
 import { ArrowLeft, Send, Sparkles, Bot } from 'lucide-react-native';
 
 export default function ChatbotScreen() {
